@@ -149,6 +149,11 @@ _G.packer_plugins = {
     path = "/home/bash/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
+  ["nvim-treesitter-context"] = {
+    loaded = true,
+    path = "/home/bash/.local/share/nvim/site/pack/packer/start/nvim-treesitter-context",
+    url = "https://github.com/nvim-treesitter/nvim-treesitter-context"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/bash/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -186,7 +191,7 @@ _G.packer_plugins = {
     url = "https://github.com/tpope/vim-fugitive"
   },
   ["zen-mode.nvim"] = {
-    config = { "\27LJ\2\n\v\0\1\1\0\0\0\1K\0\1\0\v\0\0\1\0\0\0\1K\0\1\0«\2\1\0\5\0\17\0\0216\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\6\0005\3\3\0005\4\4\0=\4\5\3=\3\a\0025\3\t\0005\4\b\0=\4\5\0035\4\n\0=\4\v\3=\3\f\0023\3\r\0=\3\14\0023\3\15\0=\3\16\2B\0\2\1K\0\1\0\ron_close\0\fon_open\0\fplugins\rtwilight\1\0\1\fenabled\1\1\0\0\1\0\3\fenabled\2\nruler\1\fshowcmd\1\vwindow\1\0\0\foptions\1\0\4\15cursorline\1\15signcolumn\ano\tlist\1\15foldcolumn\0060\1\0\3\nwidth\3d\rbackdrop\4š³æÌ\t™³¦ÿ\3\vheight\3\1\nsetup\rzen-mode\frequire\0" },
+    config = { "\27LJ\2\n\v\0\1\1\0\0\0\1K\0\1\0\v\0\0\1\0\0\0\1K\0\1\0«\2\1\0\5\0\17\0\0216\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\6\0005\3\3\0005\4\4\0=\4\5\3=\3\a\0025\3\t\0005\4\b\0=\4\5\0035\4\n\0=\4\v\3=\3\f\0023\3\r\0=\3\14\0023\3\15\0=\3\16\2B\0\2\1K\0\1\0\ron_close\0\fon_open\0\fplugins\rtwilight\1\0\1\fenabled\1\1\0\0\1\0\3\nruler\1\fenabled\2\fshowcmd\1\vwindow\1\0\0\foptions\1\0\4\15cursorline\1\tlist\1\15foldcolumn\0060\15signcolumn\ano\1\0\3\vheight\3\1\rbackdrop\4š³æÌ\t™³¦ÿ\3\nwidth\3d\nsetup\rzen-mode\frequire\0" },
     loaded = true,
     path = "/home/bash/.local/share/nvim/site/pack/packer/start/zen-mode.nvim",
     url = "https://github.com/folke/zen-mode.nvim"
@@ -196,7 +201,7 @@ _G.packer_plugins = {
 time([[Defining packer_plugins]], false)
 -- Config for: zen-mode.nvim
 time([[Config for zen-mode.nvim]], true)
-try_loadstring("\27LJ\2\n\v\0\1\1\0\0\0\1K\0\1\0\v\0\0\1\0\0\0\1K\0\1\0«\2\1\0\5\0\17\0\0216\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\6\0005\3\3\0005\4\4\0=\4\5\3=\3\a\0025\3\t\0005\4\b\0=\4\5\0035\4\n\0=\4\v\3=\3\f\0023\3\r\0=\3\14\0023\3\15\0=\3\16\2B\0\2\1K\0\1\0\ron_close\0\fon_open\0\fplugins\rtwilight\1\0\1\fenabled\1\1\0\0\1\0\3\fenabled\2\nruler\1\fshowcmd\1\vwindow\1\0\0\foptions\1\0\4\15cursorline\1\15signcolumn\ano\tlist\1\15foldcolumn\0060\1\0\3\nwidth\3d\rbackdrop\4š³æÌ\t™³¦ÿ\3\vheight\3\1\nsetup\rzen-mode\frequire\0", "config", "zen-mode.nvim")
+try_loadstring("\27LJ\2\n\v\0\1\1\0\0\0\1K\0\1\0\v\0\0\1\0\0\0\1K\0\1\0«\2\1\0\5\0\17\0\0216\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\6\0005\3\3\0005\4\4\0=\4\5\3=\3\a\0025\3\t\0005\4\b\0=\4\5\0035\4\n\0=\4\v\3=\3\f\0023\3\r\0=\3\14\0023\3\15\0=\3\16\2B\0\2\1K\0\1\0\ron_close\0\fon_open\0\fplugins\rtwilight\1\0\1\fenabled\1\1\0\0\1\0\3\nruler\1\fenabled\2\fshowcmd\1\vwindow\1\0\0\foptions\1\0\4\15cursorline\1\tlist\1\15foldcolumn\0060\15signcolumn\ano\1\0\3\vheight\3\1\rbackdrop\4š³æÌ\t™³¦ÿ\3\nwidth\3d\nsetup\rzen-mode\frequire\0", "config", "zen-mode.nvim")
 time([[Config for zen-mode.nvim]], false)
 -- Config for: rose-pine
 time([[Config for rose-pine]], true)
