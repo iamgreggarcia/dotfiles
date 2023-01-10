@@ -17,8 +17,10 @@ vim.opt.backup = false
 vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
 vim.opt.undofile = true
 
-vim.opt.hlsearch = false
+vim.opt.hlsearch = true
 vim.opt.incsearch = true
+-- Highlight on yank
+vim.cmd [[au TextYankPost * lua vim.highlight.on_yank {on_visual = false}]]
 
 vim.opt.termguicolors = true
 vim.opt.guifont = "FiraCode Nerd Font:h14"
