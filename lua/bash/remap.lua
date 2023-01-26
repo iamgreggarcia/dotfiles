@@ -18,6 +18,18 @@ vim.keymap.set("n", "<leader>svwm", function()
     require("vim-with-me").StopVimWithMe()
 end)
 
+-- Copy to system clipboard
+vim.keymap.set("v", "<leader>y", '"+y')
+vim.keymap.set("n", "<leader>y", '"+y')
+vim.keymap.set("n", "<leader>Y", '"+yg_')
+vim.keymap.set("n", "<leader>yy", '"+yy')
+
+-- Paste from system clipboard
+vim.keymap.set("n", "<leader>p", '"+p')
+vim.keymap.set("n", "<leader>P", '"+P')
+vim.keymap.set("v", "<leader>p", '"+p')
+vim.keymap.set("v", "<leader>P", '"+P')
+
 -- greatest remap ever
 vim.keymap.set("x", "<leader>p", [["_dP]])
 
